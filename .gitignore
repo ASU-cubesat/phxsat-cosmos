@@ -1,0 +1,9 @@
+Gemfile
+Gemfile.lock
+Launcher
+Launcher.bat 
+log.txt 
+Rakefile
+tools/**
+procedures/** 
+outputs/**
