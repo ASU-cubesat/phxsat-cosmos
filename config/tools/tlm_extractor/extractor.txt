@@ -1,0 +1,4 @@
+DELIMITER ,
+DOWNSAMPLE_SECONDS 1
+ITEM PHXSAT uhfStandard Temp_brd
+ITEM PHXSAT uhfStandard temp_pa

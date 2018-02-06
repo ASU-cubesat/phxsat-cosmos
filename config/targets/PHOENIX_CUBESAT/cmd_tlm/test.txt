@@ -1,0 +1,21 @@
+TELEMETRY PHXSAT uhfStandard BIG_ENDIAN
+ID_ITEM telemetry_id 0 64 UINT 0x000300caa7dbdc00
+APPEND_ITEM Temp_brd 16 INT "Board temperature (near MCU)"
+APPEND_ITEM temp_pa 16 INT "PA temperature (near PA)"
+APPEND_ITEM last_rssi 16 INT "Last received RSSI"
+APPEND_ITEM last_rferr 16 INT "Last received RF error"
+APPEND_ITEM tx_count 32 UINT "Number of tx packets since reboot"
+APPEND_ITEM rx_count 32 UINT "Number of rx packets since reboot"
+APPEND_ITEM tx_bytes 32 UINT "Number of tx bytes since reboot"
+APPEND_ITEM rx_bytes 32 UINT "Number of rx bytes since reboot"
+APPEND_ITEM active_conf 8 UINT "The currently active system configuration"
+APPEND_ITEM boot_count 16 UINT "The number of reboots"
+APPEND_ITEM boot_cause 32 UINT "The cause of the reboot"
+READ_CONVERSION uhf_boot_cause.rb
+APPEND_ITEM last_contact 32 UINT "The timestamp of the last valid packet"
+APPEND_ITEM bgnd_rssi 16 INT "The current background RSSI level"
+APPEND_ITEM tx_duty 8 UINT "Total TX duty time since reboot"
+APPEND_ITEM tot_tx_count 32 UINT "Number of tx packets (total)"
+APPEND_ITEM tot_rx_count 32 UINT "Number of rx packets (total)"
+APPEND_ITEM tot_tx_bytes 32 UINT "Number of tx bytes (total)"
+APPEND_ITEM tot_rx_bytes 32 UINT "Number of rx bytes (total)"

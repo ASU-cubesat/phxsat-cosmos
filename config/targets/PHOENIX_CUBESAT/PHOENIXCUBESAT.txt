@@ -1,0 +1,11 @@
+REQUIRE uhf_boot_cause.rb
+REQUIRE sband_battery_current.rb
+REQUIRE sband_battery_voltage.rb
+REQUIRE sband_board_temp_bottom.rb
+REQUIRE sband_board_temp_top.rb
+REQUIRE sband_pa_current.rb
+REQUIRE sband_pa_power_level.rb
+REQUIRE sband_pa_temp.rb
+REQUIRE sband_pa_voltage.rb
+REQUIRE sband_rf_output_power.rb
+REQUIRE sband_status.rb
